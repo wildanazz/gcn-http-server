@@ -9,3 +9,4 @@ azure-storage-blob
 azure-keyvault
 azure-keyvault-secrets
 python-dotenv
+boto3
