@@ -1,15 +1,17 @@
 # Multi-layer GCN on Facebook Large Page-Page Network Dataset
 
 ## Introduction to GCN:
-GCN is a neural network for a graph data. The graph consists of two components: nodes and edges. Each node in the graph have features. Our task is to label each node with given categorical class (Node Classification).
-
-![GCN](./data/GCN.png)
+Multi-layer GCN is a type of neural network specifically designed for graph-structured data, where nodes represent entities and edges represent relationships between these entities. This neural network can be used to perform various tasks on graph dataset, such as node classification, link prediction, or clustering.
+- Input Layer: Takes node features and the adjacency matrix as inputs.
+- Hidden Layers: Each layer performs a graph convolution operation, aggregating information from the neighboring nodes. The depth (number of layers) depends on the complexity of the task.
+- Output Layer: For tasks like node classification, this layer produces a label prediction for each node. For link prediction, this layer could output the probability of an edge between pairs of nodes.
+The Facebook Large Page-Page Network Dataset is a well-known dataset used for research in graph neural networks (GNNs) and social network analysis. This dataset represents a network of Facebook pages (nodes) where edges indicate mutual likes between pages.
 
 ## How GCN Works in General:
 1. Create N by N adjacency matrix (N is nodes number)
 2. Create N by D matrix (D is features number)
 3. Normalize the adjacency and the features matrix
-4. Create a Two Layer Graph Convolutional Network
+4. Create a Two Layer Graph Convolutional Network model
 5. Train & test the dataset
 
 ## Dependencies Required:
