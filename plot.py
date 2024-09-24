@@ -1,5 +1,8 @@
 import logging
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Use 'Agg' backend for non-GUI rendering
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -43,3 +46,4 @@ def plot():
            ylabel="$X_2$",
            title="Visualization of GCN embeddings")
     plt.savefig('./temp/embeddings.png')
+    plt.close()  # Close the plot to free resources
