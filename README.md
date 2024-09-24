@@ -1,8 +1,3 @@
-#### Notes
-1. .env: Storage key and secret
-2. endpoint: http://localhost:5000
-
-
 # Multi-layer GCN on Facebook Large Page-Page Network Dataset
 
 ## Introduction to GCN:
@@ -36,3 +31,7 @@ GCN is a neural network for a graph data. The graph consists of two components: 
 
 ## Reference
 [1] https://arxiv.org/abs/1609.02907
+
+## Notes
+- .env: Storage key and secret
+- endpoint: http://localhost:5000
