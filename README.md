@@ -1,5 +1,5 @@
 #### Notes
-1. .env: File location for storage's key and secret
+1. .env: Storage key and secret
 2. endpoint: http://localhost:5000
 
 
