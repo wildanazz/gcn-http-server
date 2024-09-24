@@ -27,10 +27,7 @@ class GCNHttpRequestHandler(http.server.BaseHTTPRequestHandler):
             except (BrokenPipeError, ValueError) as e:
                 logging.error(f"Failed to close stream: {e}")
             finally:
-                try:
-                    self.finish()  # Gracefully close the connection
-                except ValueError:
-                    logging.error('Error during connection finish.', exc_info=True)
+                self.finish()  # Gracefully close the connection    
     
     def do_POST(self):
         content_type, _ = cgi.parse_header(self.headers.get('content-type'))
