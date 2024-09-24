@@ -1,4 +1,7 @@
-#### Endpoint: http://localhost:5000
+#### Notes
+1. .env: File location for storage's key and secret
+2. endpoint: http://localhost:5000
+
 
 # Multi-layer GCN on Facebook Large Page-Page Network Dataset
 
