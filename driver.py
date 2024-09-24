@@ -135,6 +135,8 @@ def main():
                                        facebook_validation_target)
         validation_accuracies.append(validation_accuracy)
 
+        logging.info('Epoch: {:04d} | Train loss: {:.4f} | Train accuracy: {:.4f} | Validation loss: {:.4f} | Validation accuracy: {:.4f}'.format(epoch + 1, train_loss.item(), train_accuracy.item(), validation_loss.item(), validation_accuracy.item()))
+        
         # print('Epoch: {:04d}'.format(epoch + 1),
         #       'Train loss: {:.4f}'.format(train_loss.item()),
         #       'Train accuracy: {:.4f}'.format(train_accuracy.item()),
