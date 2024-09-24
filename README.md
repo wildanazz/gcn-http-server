@@ -30,9 +30,9 @@ Multi-layer GCN is a type of neural network specifically designed for graph-stru
 #### Node embeddings
 ![GCN](./data/Embedding.png)
 
-## Reference
+## References:
 [1] https://arxiv.org/abs/1609.02907
 
-## Notes
+## Notes:
 - .env: Storage key and secret
 - endpoint: http://localhost:5000
