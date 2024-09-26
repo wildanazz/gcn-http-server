@@ -1,4 +1,4 @@
-# Multi-layer GCN on Facebook Large Page-Page Network Dataset
+# Multi-layer GCN on Facebook Large Page-Page Network Dataset (Multi-Class Node Classification)
 
 ## Introduction to GCN:
 Multi-layer GCN is a type of neural network specifically designed for graph-structured data, where nodes represent entities and edges represent relationships between these entities. This neural network can be used to perform various tasks on graph dataset, such as node classification, link prediction, or clustering.
