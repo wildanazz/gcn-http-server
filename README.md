@@ -38,9 +38,9 @@ To set up this project locally, follow these steps:
    python .\server.py
 
 ## Sending requests:
-   To send a request, use cURL:
-   ```bash
-   curl --location 'http://localhost:5000' --form 'data=@"/location/to/data/facebook.npz"'
+To send a request, use cURL:
+```bash
+curl --location 'http://localhost:5000' --form 'data=@"/location/to/data/facebook.npz"'
 
 ## Results:
 #### Loss Plot
