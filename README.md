@@ -13,6 +13,12 @@ A Multi-layer Graph Convolutional Network (GCNs) is a neural network architectur
 4. Construct a two-layer Graph Convolutional Network model.
 5. Train and test the model on the dataset.
 
+## Dataset
+The [Facebook Large Page-Page Network](https://snap.stanford.edu/data/facebook-large-page-page-network.html) is a dataset representing the relationships between various Facebook pages. It consists of nodes, where each node corresponds to a Facebook page, and edges that denote the connections or interactions between these pages.
+#### Key Features:
+- Graph Structure: The dataset is structured as a graph, making it suitable for graph-based algorithms and analyses, such as community detection, link prediction, and node classification.
+- Node Attributes: Each page (node) can have associated features, such as the number of likes, the category of the page, and other relevant metadata.
+
 ## Dependencies:
 - Python
 - Numpy
