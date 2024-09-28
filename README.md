@@ -21,6 +21,7 @@ A Multi-layer Graph Convolutional Network (GCNs) is a neural network architectur
 - Sklearn
 - Scipy
 - Pandas
+- Azure Services / Boto3
 
 ## Notes:
 - .env: Contains storage key and secret.
