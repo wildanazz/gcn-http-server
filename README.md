@@ -22,6 +22,9 @@ A Multi-layer Graph Convolutional Network (GCN) is a neural network architecture
 - Scipy
 - Pandas
 
+## Notes:
+- .env: Contains storage key and secret.
+
 ## Installation
 To set up this project locally, follow these steps:
 1. Clone the repository:
@@ -52,6 +55,3 @@ To set up this project locally, follow these steps:
 
 ## References:
 [1] https://arxiv.org/abs/1609.02907
-
-## Notes:
-- .env: Contains storage key and secret.
