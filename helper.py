@@ -17,6 +17,7 @@ def write_to_temp(npz_file):
 
 
 def upload_images():
+    # Azure Storage
     # blob_service_client = BlobServiceClient.from_connection_string(
     #     os.getenv('CONNECTION_STRING'))
 
@@ -33,6 +34,7 @@ def upload_images():
 
     # return list_url
 
+    # Spaces Object Storage
     try:
         # Initialize the session and client
         session = boto3.session.Session()
