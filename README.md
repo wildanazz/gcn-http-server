@@ -45,7 +45,7 @@ To set up this project locally, follow these steps:
 To send a request:
 1. cURL:
    ```bash
-   curl --location 'http://localhost:5000' --form 'data=@"/location/to/data/facebook.npz"'
+   curl -X POST -F "data=@C:\location\to\data\facebook.npz" "http://localhost:5000"
 2. Invoke-WebRequest:
    ```bash
    Invoke-WebRequest -Uri "http://localhost:5000" -Method POST -InFile "C:\path\to\data\facebook.npz"
