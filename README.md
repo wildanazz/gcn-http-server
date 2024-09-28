@@ -34,6 +34,12 @@ The [Facebook Large Page-Page Network](https://snap.stanford.edu/data/facebook-l
 
 ## Installation
 To set up this project locally, follow these steps:
+- Using Docker
+1. ```bash
+   docker build -t gcn-project .
+2. ```bash
+   docker run -p 5000:5000 gcn-project
+- Without Docker
 1. Clone the repository:
    ```bash
    git clone https://github.com/wildanazz/wildanazz.com.git
