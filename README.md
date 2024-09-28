@@ -1,18 +1,19 @@
 # Multi-layer GCN on Facebook Large Page-Page Network Dataset (Multi-Class Node Classification)
 
-## Introduction to GCN:
-Multi-layer GCN is a type of neural network specifically designed for graph-structured data, where nodes represent entities and edges represent relationships between these entities. This neural network can be used to perform various tasks on graph dataset, such as node classification, link prediction, or clustering.
-- Input Layer: Takes node features and the adjacency matrix as inputs.
-- Hidden Layers: Each layer performs a graph convolution operation, aggregating information from the neighboring nodes. The depth (number of layers) depends on the complexity of the task.
-- Output Layer: For tasks like node classification, this layer produces a label prediction for each node. For link prediction, this layer could output the probability of an edge between pairs of nodes.
-#### Implementation:
-1. Create N by N adjacency matrix (N is nodes number)
-2. Create N by D matrix (D is features number)
-3. Normalize the adjacency and the features matrix
-4. Create a Two Layer Graph Convolutional Network model
-5. Train & test the dataset
+## Introduction to GCN
+A Multi-layer Graph Convolutional Network (GCN) is a neural network architecture designed for graph-structured data, where nodes represent entities and edges denote relationships between them. GCNs can be utilized for various tasks, including node classification, link prediction, and clustering.
+#### Architecture Overview:
+- Input Layer: Accepts node features and the adjacency matrix.
+- Hidden Layers: Each layer performs a graph convolution operation, aggregating information from neighboring nodes. The number of hidden layers can be adjusted based on task complexity.
+- Output Layer: For node classification, this layer outputs label predictions for each node. For link prediction, it provides probabilities of edges between node pairs.
+#### Implementation Steps:
+1. Create an N x N adjacency matrix (where N is the number of nodes).
+2. Create an N x D feature matrix (where D is the number of features).
+3. Normalize both the adjacency and feature matrices.
+4. Construct a two-layer Graph Convolutional Network model.
+5. Train and test the model on the dataset.
 
-## Dependencies Required:
+## Dependencies:
 - Python
 - Numpy
 - Pytorch
@@ -26,7 +27,7 @@ To set up this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/wildanazz/wildanazz.com.git
-2. Create virtual environment:
+2. Create a virtual environment:
    ```bash
    python -m venv .venv   
 3. Activate the virtual environment:
@@ -35,9 +36,11 @@ To set up this project locally, follow these steps:
 4. Run the server:
    ```bash
    python .\server.py
-5. Send a request:
+
+## Sending requests:
+   To send a request, use cURL:
    ```bash
-   curl --location 'http://localhost:5000' --form 'data=@"/C:/Users/Wildan Aziz/OneDrive/Documents/Dev/gcn-http-server/data/facebook.npz"'
+   curl --location 'http://localhost:5000' --form 'data=@"/location/to/data/facebook.npz"'
 
 ## Results:
 #### Loss Plot
@@ -51,5 +54,4 @@ To set up this project locally, follow these steps:
 [1] https://arxiv.org/abs/1609.02907
 
 ## Notes:
-- .env: Storage key and secret
-- endpoint: http://localhost:5000
+- .env: Contains storage key and secret.
