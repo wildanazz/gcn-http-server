@@ -37,7 +37,10 @@ To set up this project locally, follow these steps:
 3. Activate the virtual environment:
    ```bash
    .\.venv\Scripts\activate
-4. Run the server:
+4. Install the requirements:
+   ```bash
+   pip install -r .\requirements.txt  
+5. Run the server:
    ```bash
    python .\server.py
 
