@@ -1,11 +1,11 @@
 # Multi-layer GCN on Facebook Large Page-Page Network Dataset (Multi-Class Node Classification)
 
 ## Introduction to GCN
-A Multi-layer Graph Convolutional Network (GCNs) is a neural network architecture designed for graph-structured data, where nodes represent entities and edges denote relationships between them. GCNs can be utilized for various tasks, including node classification, link prediction, and clustering. The main purpose of this GCNs model is to accurately assign one of several predefined labels to each node in a graph based on its features and the relationships it has with other nodes.
+A multi-layer Graph Convolutional Network (GCN) is a neural network architecture specifically designed for graph-structured data, where nodes represent entities and edges denote the relationships between them. GCNs can be employed for various tasks, including node classification, link prediction, and clustering. The primary objective of this GCN model is to accurately assign one of several predefined labels to each node in the graph based on its features and the relationships it has with other nodes. Additionally, it utilizes dimensionality reduction techniques to transform the high-dimensional embeddings into a lower-dimensional space for visualization.
 #### Architecture Overview:
 - Input Layer: Accepts node features and the adjacency matrix.
-- Hidden Layers: Each layer performs a graph convolution operation, aggregating information from neighboring nodes. The number of hidden layers can be adjusted based on task complexity.
-- Output Layer: This layer outputs label predictions for each node.
+- Hidden Layers: Each layer performs a graph convolution operation, aggregating information from neighboring nodes. The number of hidden layers can be adjusted based on the complexity of the task.
+- Output Layer: Outputs label predictions for each node.
 #### Implementation Steps:
 1. Create an N x N adjacency matrix (where N is the number of nodes).
 2. Create an N x D feature matrix (where D is the number of features).
