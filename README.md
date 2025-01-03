@@ -21,7 +21,6 @@ Before setting up the server, ensure you have the following dependencies install
 
 - **Python 3.6+**
 - **PyTorch**: For the GCN model and neural network operations.
-- **Flask**: For running the HTTP server.
 - **NumPy, SciPy**: Required for numerical and graph operations.
 - **Matplotlib**: For visualizing training loss and accuracy.
 - **Pandas**: For managing dataframes and results.
