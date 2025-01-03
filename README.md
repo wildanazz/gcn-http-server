@@ -4,6 +4,14 @@
 
 This repository hosts an HTTP server that processes HTTP requests to perform tasks related to a **Graph Convolutional Network (GCN)**, a neural network that operates directly on graph-structured data. It also features support for uploading images to cloud storage like Azure or AWS. The primary goal of this project is to offer a web-accessible interface for GCN processing, useful for node classification tasks on graph data (e.g., social networks, citation networks).
 
+<div style="" align="center">
+  <img src="./data/Accuracy.png" alt="GCN Embedding" width="500">
+  <img src="./data/Loss.png" alt="GCN Embedding" width="500">
+</div>
+<p align="center">
+  <img src="./data/Embedding.png" alt="GCN Embedding" width="500">
+</p>
+
 ## Features
 
 - **Graph Convolutional Network (GCN) Inference**: The server performs node classification using a pre-trained GCN model on input graph data (e.g., `.npz` files).
