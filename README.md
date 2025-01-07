@@ -150,17 +150,8 @@ For users requiring cloud storage, the server supports uploading processed files
 The server generates the following outputs:
 
 - **Training Loss**: Displays a plot of the loss over time during training.
-  <p align="left">
-    <img src="./data/Loss.png" alt="Loss" width="500">
-  </p>
 - **Accuracy**: Tracks classification accuracy during model evaluation.
-  <p align="left">
-    <img src="./data/Accuracy.png" alt="Accuracy" width="500">
-  </p>
 - **Node Embeddings**: The GCN's learned representations for each node in the graph.
-  <p align="left">
-    <img src="./data/Embedding.png" alt="GCN Embedding" width="500">
-  </p>
 - **Classification Results**: A JSON file containing the classification of nodes based on input labels.
 
 ## Acknowledgements
